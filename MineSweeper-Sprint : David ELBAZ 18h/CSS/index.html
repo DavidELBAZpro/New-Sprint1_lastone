@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>CG-DavidE</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/CodingGame.css" />
+  </head>
+
+  <body>
+    <h1>MineSweeper</h1>
+    <div>
+      <button class="smiley" onclick="initGame()">😀</button>
+    </div>
+
+    <table class="game" >
+      <tbody class="board"></tbody>
+    </table>
+
+    <div class="Hints">
+      <button class="hint" onclick="getHint()">🍭</button>
+      <button class="hint" onclick="getHint()">🍭</button>
+      <button class="hint" onclick="getHint()">🍭</button>
+    </div>
+
+    <h2></h2>
+
+    <div class="timer">00:00</div>
+
+    <h3></h3>
+
+    <msg class="Message"> Left Chances :<span class="span"></span></msg>
+
+  
+    <h4></h4>
+
+    <div class="Levels">
+      <button onclick="">Easy</button>
+      <button onclick="">Hard</button>
+      <button onclick="changeDifficulty(gLevel)">Extreme</button>
+    </div>
+
+    <script src="JS/CG.js"></script>
+    <script src="JS/UTILS.js"></script>
+  </body>
+</html>

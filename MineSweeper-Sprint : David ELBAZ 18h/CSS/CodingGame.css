@@ -1,0 +1,140 @@
+body {
+    background-color: pink;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/3680912/pexels-photo-3680912.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: cursive, monospace;
+    color: gainsboro;
+   
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game {
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(214, 214, 214, 0.747);
+}
+
+.board {
+    inline-size: auto;
+    background-color: skyblue
+    ;
+}
+
+
+.board td {
+    
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.board td:hover {
+    background-color: rgba(252, 217, 203, 0.452);
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+}
+
+.smiley {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .Levels button{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.Hints button{
+    cursor: pointer; 
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 80px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.timer {
+
+        background-color: skyblue;
+        height: 30px;
+        width: 50px;
+        margin: auto;
+        border-radius: 15%; 
+        cursor: wait;
+}
+
+.mine {
+    background-color: red;
+    outline: 2px solid rgba(0, 0, 0, 0.068);
+}
+
+.shownCell {
+    background: linear-gradient(to top,pink, pink);
+    outline: 2px solid rgba(0, 0, 0, 0.068);
+}
+
+.Message {
+    font-style: italic;
+    background-color: #7b38d8;
+    color: greenyellow ;
+}
+
+.Message span {
+
+     
+     font-size: x-large;
+}
+
